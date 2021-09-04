@@ -1,0 +1,14 @@
+﻿  aimbot.cpp
+  backtrack.cpp
+  misc.cpp
+  parser.cpp
+  skins.cpp
+  glow.cpp
+  visuals.cpp
+  hooks.cpp
+  main.cpp
+  config.cpp
+  menu.cpp
+  renderer.cpp
+  Gerando Código...
+  csgo-cheat.vcxproj -> C:\Users\Yan\Documents\tuamae.tk-v2-main\output\debug\csgo-cheat.dll
