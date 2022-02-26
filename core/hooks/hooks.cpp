@@ -114,7 +114,7 @@ bool __stdcall hooks::create_move::hook(float input_sample_frametime, c_usercmd*
 
 	uintptr_t* frame_pointer;
 	__asm mov frame_pointer, ebp;
-	bool& send_packet = *reinterpret_cast<bool*>(*frame_pointer - 0x1C);
+	bool& send_packet = *reinterpret_cast<bool*>(*frame_pointer - 0x34C);
 
 	auto old_viewangles = cmd->viewangles;
 	auto old_forwardmove = cmd->forwardmove;
